@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const Item = require('./models/item');
+const Item = require('./models/Item');
 
 const MONGO = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/ecom2';
 mongoose.connect(MONGO, { useNewUrlParser:true, useUnifiedTopology:true }).then(async ()=>{
