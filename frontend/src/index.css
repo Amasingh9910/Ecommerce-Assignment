@@ -1,0 +1,31 @@
+
+body { background:#f5f7fb; font-family: Arial, sans-serif; }
+.card { border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.navbar-brand { font-weight: 700; }
+/* homepage background + overlay */
+.home-container{
+  background-image: url('/bg_hospital.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 56px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.home-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content{
+  position: relative;
+  z-index: 2;
+  padding: 30px;
+}
