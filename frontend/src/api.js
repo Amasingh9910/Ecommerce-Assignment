@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://ecommerce-assignment-2-n6id.onrender.com/api'
+  baseURL: 'https://ecommerce-assignment-2-n6id.onrender.com'
 });
 
 API.interceptors.request.use(cfg => {
